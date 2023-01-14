@@ -23,10 +23,10 @@ const AppRoutes = [
   {
     path: '/create-account',
     element: <CreateAccount />
-    },
-    {
-        path: '/my-watch-list',
-        element: <MyWatchList />
+  },
+  {
+      path: '/my-watch-list',
+      element: <MyWatchList />
     },
   {
     path: '/LogIn',
@@ -40,7 +40,6 @@ const AppRoutes = [
     path: '/User-Profile',
     element: <UserProfile />
   }
-
 ];
 
 export default AppRoutes;
