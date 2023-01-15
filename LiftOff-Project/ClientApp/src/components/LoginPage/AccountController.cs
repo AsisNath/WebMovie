@@ -9,7 +9,6 @@ using Microsoft.EntityFrameworkCore;
 using LiftOff_Project.Models;
 using LiftOff_Project.ClientApp.src.components.API;
 
-
 namespace LiftOff_Project.ClientApp.src.components.LoginPage
 {
     [ApiController]

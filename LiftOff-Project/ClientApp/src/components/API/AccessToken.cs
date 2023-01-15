@@ -12,7 +12,7 @@ namespace LiftOff_Project.ClientApp.src.components.API
 {
     public class AccessToken
     {
-                private readonly IConfiguration _config;
+        private readonly IConfiguration _config;
         public AccessToken(IConfiguration config)
         {
             _config = config;

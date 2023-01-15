@@ -37,6 +37,10 @@ export function LogInForm() {
                     <input className={css.input} type="password" name="password" placeholder="Password" {...register("password")} />
                     {errors.password && <p>{errors.password.message}</p>}
                 </div>
+
+                <div>
+                    <Button variant="primary" type="submit" className={css.click}>Log In!</Button>{' '}
+                </div>
             </form>
         </div>
     );
